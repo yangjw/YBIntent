@@ -22,19 +22,6 @@
     return _sharedInstance;
 }
 
-
-- (void)startIntent:(YBIntent *)intent
-{
-    UIViewController *souce = [UIApplication visibleViewController];
-    [self startController:souce intent:intent];
-}
-
-- (void)startIntent:(YBIntent *)intent requestCode:(NSNumber *)requestCode
-{
-    UIViewController *souce = [UIApplication visibleViewController];
-    [self startController:souce intent:intent requestCode:requestCode];
-}
-
 - (void)startController:(UIViewController *)source intent:(YBIntent *)intent
 {
     UIViewController *viewController = [self controllerForIntentParams:intent];
