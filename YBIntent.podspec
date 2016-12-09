@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YBIntent"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "iOS仿Android的Intent跳转"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   			this project provide all kinds of categories for iOS developer 
                    DESC
 
-  s.homepage     = "https://github.com/yangjw/YBIntent.git"
+  s.homepage     = "https://github.com/yangjw/YBIntent"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 

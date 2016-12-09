@@ -16,15 +16,6 @@
 
 @implementation YBIntent
 
-- (instancetype)initWithUrl:(NSString *)url
-{
-    self = [super init];
-    if (self) {
-        self.url = url;
-    }
-    return self;
-}
-
 - (instancetype)initWithClazz:(id)receiveClass
 {
     self = [super init];

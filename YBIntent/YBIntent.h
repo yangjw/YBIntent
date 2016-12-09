@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "YBMacros.h"
 
 @class YBIntent;
 /** 回调  */
@@ -75,10 +74,6 @@ typedef NS_ENUM(NSInteger,YBIntentResultCode) {
 
 @interface YBIntent : NSObject
 /**
- *  路由url
- */
-@property (nonatomic, strong) NSString *url YBDeprecated("路由方法没有实现");
-/**
  *  对象
  */
 @property (nonatomic, strong) Class receiveClass;
@@ -95,14 +90,6 @@ typedef NS_ENUM(NSInteger,YBIntentResultCode) {
  *  @return 对象
  */
 - (instancetype)initWithClazz:(id)receiveClass;
-/**
- *  初始化 跳转对象
- *
- *  @param url 路由url
- *
- *  @return 对象
- */
-- (instancetype)initWithUrl:(NSString *)url YBDeprecated("路由方法没有实现");
 /**
  *  传值
  *
