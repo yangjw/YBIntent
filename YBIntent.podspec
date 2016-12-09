@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YBIntent"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "iOS仿Android的Intent跳转"
 
   # This description is used to generate tags and improve search results.
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  			this project provide all kinds of categories for iOS developer 
                    DESC
 
   s.homepage     = "https://github.com/yangjw/YBIntent.git"
