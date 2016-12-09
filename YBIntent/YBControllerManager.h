@@ -68,19 +68,6 @@
 + (instancetype)sharedInstance;
 @property(nonatomic,assign)BOOL ignoresExceptions;
 
-/**
- *  根据 父类跳转
- *
- *  @param intent 参数
- */
-- (void)startIntent:(YBIntent *)intent;
-/**
- *  根据 父类跳转 回调
- *
- *  @param intent      参数
- *  @param requestCode 标识
- */
-- (void)startIntent:(YBIntent *)intent  requestCode:(NSNumber *)requestCode;
 
 /**
  *  默认跳转方式 push

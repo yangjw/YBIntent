@@ -8,7 +8,6 @@
 
 #import "YBControllerManager.h"
 #import "YBIntent.h"
-#import "UIApplication+YBTools.h"
 
 
 @implementation YBControllerManager
