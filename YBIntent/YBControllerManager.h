@@ -68,19 +68,7 @@
 + (instancetype)sharedInstance;
 @property(nonatomic,assign)BOOL ignoresExceptions;
 
-/**
- 默认跳转方式 push
-
- @param source 控制器
- @param intent
- */
 - (void)startController:(UIViewController *)source intent:(YBIntent *)intent;
-/**
- *  默认跳转方式 presentation
- *
- *  @param intent      参数
- *  @param requestCode 回调code
- */
 - (void)startController:(UIViewController *)source intent:(YBIntent *)intent  requestCode:(NSNumber *)requestCode;
 
 @end

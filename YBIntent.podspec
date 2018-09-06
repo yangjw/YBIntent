@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YBIntent"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "iOS仿Android的Intent跳转"
 
   # This description is used to generate tags and improve search results.
